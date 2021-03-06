@@ -1,0 +1,24 @@
+{
+  "name": "middlepack",
+  "version": "1.0.0",
+  "description": "Middleman 4 + Webpack integration",
+  "main": "index.js",
+  "repository": "https://github.com/matteoredz/middlepack",
+  "author": "Matteo Rossi <mttrss5@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack --watch --color -d",
+    "build": "webpack --bail -p"
+  },
+  "devDependencies": {
+    "css-loader": "^3.6.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "codyhouse-framework": "^2.8.3"
+  }
+}

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="<%= data.site.language %>">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title><%= current_page.data.title || data.site.title %></title>
+    <meta name="description" content="<%= current_page.data.meta.description || data.site.description %>">
+    <link rel="canonical" href="<%= current_page.data.canonical %>" />
+    <script>document.getElementsByTagName("html")[0].className += " js";</script>
+    <%= stylesheet_link_tag "style" %>
+  </head>
+  <body class="<%= page_classes %>">
+    <%= yield %>
+    <%= javascript_include_tag "site.min" %>
+  </body>
+</html>

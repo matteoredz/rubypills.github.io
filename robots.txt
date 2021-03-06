@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://matteorossi.dev/sitemap.xml
+Sitemap: https://rubypills.com/sitemap.xml
